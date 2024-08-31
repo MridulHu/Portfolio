@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.14410527.css",
+    "main.js": "/static/js/main.a0d03b89.js",
+    "static/media/background.jpg": "/static/media/background.6277c72408312fe4c042.jpg",
+    "static/media/Mridul.png": "/static/media/Mridul.24fa46bad362fcc578d7.png",
+    "static/media/black.jpg": "/static/media/black.44d8a0a9a99585d7552e.jpg",
+    "index.html": "/index.html",
+    "main.14410527.css.map": "/static/css/main.14410527.css.map",
+    "main.a0d03b89.js.map": "/static/js/main.a0d03b89.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14410527.css",
+    "static/js/main.a0d03b89.js"
+  ]
+}
