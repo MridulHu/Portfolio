@@ -11,6 +11,8 @@ const Skills = () => {
         <li>Kotlin</li>
         <li>Figma</li>
         <li>SQL And DB Management</li>
+        <li>Git</li>
+        <li>Docker</li>
       </ul>
     </section>
   );
