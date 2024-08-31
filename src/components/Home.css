@@ -1,0 +1,22 @@
+.home {
+    background-image: url('images/black.jpg');
+    background-size: cover;
+    background-position: auto auto;
+    background-repeat: no-repeat;
+    color: rgb(244, 248, 250); 
+    padding: 0;
+    height: 92vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+
+@media (max-width: 768px) {
+    .home {
+      background-image: url('./images/background.jpg');
+      background-position: center;
+      background-size: cover;
+    }
+  }

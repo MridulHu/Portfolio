@@ -1,0 +1,181 @@
+* {
+  margin: revert;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1rem 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 1.5rem;
+  font-size: 1.4rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+section {
+  margin: 2rem 0;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #f0a9a9;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+p {
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.projects h1 {
+  margin-bottom: 3rem; 
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project-item {
+  width: 30%;
+  margin-bottom: 1.5rem;
+}
+
+.project-item h2 {
+  font-size: 1.5rem;
+}
+
+.project-item p {
+  font-size: 1rem;
+}
+
+.project-item a {
+  color: #007bff;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form div {
+  margin-bottom: 1rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  min-height: 92vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('components/images/black.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.container h1, .container p {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  margin: 0;
+  white-space: normal;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    background-size: cover;
+    background-position: center;
+  }
+
+
+}
