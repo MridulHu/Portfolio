@@ -8,10 +8,10 @@ const Skills = () => {
         <li>HTML & CSS</li>
         <li>JavaScript</li>
         <li>React</li>
-        <li>Kotlin</li>
+        <li>AWS</li>
         <li>Figma</li>
         <li>SQL And DB Management</li>
-        <li>Git</li>
+        <li>Git & Github Actions</li>
         <li>Docker</li>
       </ul>
     </section>

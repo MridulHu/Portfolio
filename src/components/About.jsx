@@ -11,7 +11,7 @@ const About = () => {
           I am Mridul Das, a learning Front End Designer and Back End Developer.
           </p>
           <p>
-            I also excel at Database Management and Tinkering.
+            I also excel at Database and DevOps Managament.
           </p>
           <p>
             I am trying to learn new things trying to always be my better self.
